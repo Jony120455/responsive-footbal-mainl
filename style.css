@@ -45,7 +45,7 @@ h1{
     width:556px;
     height: 438px;
     margin-top: 153px;
-    padding-right: 140px;
+    margin-left: 100px;
 }
 
 /*-----------
@@ -115,3 +115,28 @@ photo-albam
 /*---------------------
     footer section start
 ---------------------------*/
+.footer{
+    text-align: center;
+    padding-top: 100px;
+}
+.images img{
+    width: 485px;
+    height: 110px;
+}
+.icon i{
+    padding: 10px;
+    background-color: rgb(206, 203, 203);
+    border-radius: 50%;
+    font-size: 32px;
+}
+.icon a{
+    text-decoration: none;
+    color: black;
+}
+.end p{
+    font-size: 30px;
+    font-weight: 400;
+}
+/*-------------------------
+            end
+-----------------------------*/
