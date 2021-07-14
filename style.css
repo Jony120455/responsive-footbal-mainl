@@ -1,0 +1,85 @@
+/*--------------
+  body style
+  ----------------*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*.................. 
+   top-banner
+.................. */
+.flex-container{
+    width: 1440px;
+    display: flex;
+    background-color:#2D25A0;
+    padding-bottom: 69px;
+    margin-bottom: 60px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+.width h1{
+   width: 485px;
+   height: 230px;
+   padding-left:156px;
+   margin-top: 207px; 
+}
+.link-live{
+    padding-left: 156px;
+}
+.link{
+    background-color:#E02C6D;
+    text-decoration: none;
+    padding: 10px 24px 10px 24px;
+    margin-left: 156px;
+    margin: 5px;
+    color: white;
+}
+.fa-arrow-right{
+    padding: 15px;
+    align-items: center;
+}
+.width img{
+    width:556px;
+    height: 438px;
+    margin-top: 153px;
+    padding-right: 140px;
+}
+
+/*-----------
+photo-albam
+----------------*/
+
+.photo-album{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px;
+    grid-row-gap:10px;
+}
+.photo-fram img{
+    width:300px;
+    height: 256px;
+    margin: 4.5%;
+}
+.photo-fram{
+    width:330px;
+    height: 474px;
+    box-shadow: 2px 2px 20px rgb(201, 196, 196);
+   
+    text-align: center;
+    margin-top: 20px;  
+    text-align: left; 
+}
+.photo-album{
+    margin-left:150px;
+    margin-right:150px;
+}
+.photo-fram p{
+    padding-left: 5%;
+}
+.photo-fram h2{
+    padding-left: 5%;
+    margin-top: 5px;
+}
