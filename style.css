@@ -52,7 +52,6 @@ h1{
     margin-top: 153px;
     margin-left: 100px;
 }
-
 /*-----------
 photo-albam
 ----------------*/
@@ -92,8 +91,7 @@ photo-albam
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 .foot-ball-video video{
    width: 400px;
